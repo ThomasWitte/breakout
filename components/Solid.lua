@@ -1,0 +1,2 @@
+Solid = class("Solid", Component)
+
