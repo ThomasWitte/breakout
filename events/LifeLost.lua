@@ -1,5 +1,5 @@
 LifeLost = class("LifeLost")
 
-function LifeLost:__init(ball)
+function LifeLost:initialize(ball)
     self.ball = ball
 end

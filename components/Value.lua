@@ -1,5 +1,5 @@
-Value = class("Value", Component)
+Value = class("Value")
 
-function Value:__init(value)
+function Value:initialize(value)
     self.value = value
 end

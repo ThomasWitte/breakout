@@ -1,5 +1,5 @@
 KeyPressed = class("KeyPressed")
 
-function KeyPressed:__init(key)
+function KeyPressed:initialize(key)
     self.key = key
 end

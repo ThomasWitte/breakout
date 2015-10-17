@@ -1,6 +1,6 @@
-ColorChangeAnimation = class("ColorChangeAnimation", Component)
+ColorChangeAnimation = class("ColorChangeAnimation")
 
-function ColorChangeAnimation:__init(target_color, t)
+function ColorChangeAnimation:initialize(target_color, t)
     self.t = t
     self.cur_t = 0
     self.target_color = {}

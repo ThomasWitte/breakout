@@ -1,2 +1,2 @@
-Solid = class("Solid", Component)
+Solid = class("Solid")
 

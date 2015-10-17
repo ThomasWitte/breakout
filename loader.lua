@@ -1,6 +1,6 @@
 Loader = class("Loader")
 
-function Loader:__init(game)
+function Loader:initialize(game)
     game.em:addListener("LoadScene", self, self.loadScene)
     game.em:addListener("ExitGame", self, self.exitGame)
     self.game = game

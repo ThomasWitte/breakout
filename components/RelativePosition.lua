@@ -1,6 +1,6 @@
-RelativePosition = class("RelativePosition", Component)
+RelativePosition = class("RelativePosition")
 
-function RelativePosition:__init(master, o_x, o_y, o_r)
+function RelativePosition:initialize(master, o_x, o_y, o_r)
     self.master = master
     self.o_x = o_x or 0
     self.o_y = o_y or 0

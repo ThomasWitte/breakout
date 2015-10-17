@@ -1,6 +1,6 @@
-Fence = class("Fence", Component)
+Fence = class("Fence")
 
-function Fence:__init(x, y, w, h)
+function Fence:initialize(x, y, w, h)
     self.x = x
     self.y = y
     self.w = w

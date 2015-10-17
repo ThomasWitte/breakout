@@ -1,6 +1,6 @@
-ResizeAnimation = class("ResizeAnimation", Component)
+ResizeAnimation = class("ResizeAnimation")
 
-function ResizeAnimation:__init(scale, t, cb_finished)
+function ResizeAnimation:initialize(scale, t, cb_finished)
     self.cb_finished = cb_finished
     self.t = t
     self.scale = scale

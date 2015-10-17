@@ -1,6 +1,6 @@
-PathMovement = class("PathMovement", Component)
+PathMovement = class("PathMovement")
 
-function PathMovement:__init(targets, cycle)
+function PathMovement:initialize(targets, cycle)
     self.targets = targets
     self.cycle = cycle
     

@@ -1,5 +1,5 @@
-OnHit = class("OnHit", Component)
+OnHit = class("OnHit")
 
-function OnHit:__init(func)
+function OnHit:initialize(func)
     self.func = func
 end

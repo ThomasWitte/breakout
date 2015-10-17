@@ -1,5 +1,5 @@
-Circle = class("Circle", Component)
+Circle = class("Circle")
 
-function Circle:__init(r)
+function Circle:initialize(r)
     self.r = r
 end

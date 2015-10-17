@@ -30,6 +30,17 @@ game = {
         engine:addSystem(RenderSystem())
         engine:addSystem(TimerSystem())
         engine:addSystem(RelativePositionSystem())
+        
+        --[[engine:startSystem("AnimationSystem")
+        engine:startSystem("GravitationSystem")
+        engine:startSystem("PathMovementSystem")
+        engine:startSystem("MoveSystem")
+        engine:startSystem("CollisionSystem")
+        engine:startSystem("KeyboardSystem")
+        engine:startSystem("FenceSystem")
+        engine:startSystem("RenderSystem")
+        engine:startSystem("TimerSystem")
+        engine:startSystem("RelativePositionSystem")]]
     end
 }
 

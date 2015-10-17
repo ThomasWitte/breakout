@@ -1,6 +1,6 @@
-Timer = class("Timer", Component)
+Timer = class("Timer")
 
-function Timer:__init(time, callback)
+function Timer:initialize(time, callback)
     self.time = time
     self.callback = callback
 end

@@ -1,6 +1,6 @@
-Label = class("Label", Component)
+Label = class("Label")
 
-function Label:__init(text, scale)
+function Label:initialize(text, scale)
     self.text = text
     self.scale = scale or 1
 end

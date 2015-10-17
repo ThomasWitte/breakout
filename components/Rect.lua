@@ -1,6 +1,6 @@
-Rect = class("Rect", Component)
+Rect = class("Rect")
 
-function Rect:__init(w, h)
+function Rect:initialize(w, h)
     self.w = w
     self.h = h
 end

@@ -1,5 +1,5 @@
 LoadScene = class("LoadScene")
 
-function LoadScene:__init(scene)
+function LoadScene:initialize(scene)
     self.scene = scene
 end

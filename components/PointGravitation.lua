@@ -1,6 +1,6 @@
-PointGravitation = class("PointGravitation", Component)
+PointGravitation = class("PointGravitation")
 
-function PointGravitation:__init(cx, cy, f)
+function PointGravitation:initialize(cx, cy, f)
     self.cx = cx
     self.cy = cy
     self.f = f

@@ -1,5 +1,5 @@
 BoxHit = class("BoxHit")
 
-function BoxHit:__init(box)
+function BoxHit:initialize(box)
     self.box = box
 end

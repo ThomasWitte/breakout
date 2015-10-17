@@ -1,6 +1,6 @@
-KeyboardMovement = class("KeyboardMovement", Component)
+KeyboardMovement = class("KeyboardMovement")
 
-function KeyboardMovement:__init(l, r, u, d)
+function KeyboardMovement:initialize(l, r, u, d)
     self.left = l
     self.right = r
     self.up = u
